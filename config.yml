@@ -1,0 +1,18 @@
+title: NDVI index in Morocco
+description: >-
+  this course will show yuou a python code to represente and visualize on a map
+  the NDVI index related to vegetation in Morocco
+template:
+  repo: ndvi-index-in-morocco-template
+  name: ndvi-index-in-morocco
+before:
+  - type: createIssue
+    title: Welcome!
+    body: new-issue.md
+steps:
+  - title: First step
+    description: The first step in your course
+    event: issues.assigned
+    link: '{{ repoUrl }}'
+    actions:
+      - type: closeIssue
